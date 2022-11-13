@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Centennial College Continuing Education Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+   
+    <header class="bannerimg" id="home">
+        <a href="https://www.centennialcollege.ca/">
+            <img class="logo1" src="centenniallogo.jpg" alt="centennial_logo">
+        </a>
+        <div>
+            <span class="bannerheading">
+                <br>
+                <h1>Centennial College</h1>
+                <br>
+            </span>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="page"><a href="index.html">Home Page</a></li>
+            <li class="page"><a href="assignment2.html">Assignment 2</a></li>
+            <li class="page"><a href="assignment3.html">Assignment 3</a></li>
+            <li class="page"><a class="active" href="assignment4.html">Assignment 4</a></li>
+        </ul>
+    </nav>
+    <hr class="grayRule">
+    <main class="mainpart">
+        <h2 class ="formTitle">Continuing Education Course/Instructor Evaluation</h2>
+        <p>Please read each statement carefully and consider each one individually. Use the <b>computer card</b> to make
+            your choice (use the text boxes to fill in your answers). Give only <b>one answer</b> for each question.</p>
+        <form>
+            <div>
+                <label for="courseid"><b>Course Name/Code:</b></label>
+                <input type="text" class="textInput" id="courseid" name="courseid"><br>
+
+                <b>Semester: </b>
+                &nbsp; &nbsp;
+                <input type="radio" id="fall" name="semester" value="Fall">
+                <label for="fall">Fall</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="winter" name="semester" value="Winter">
+                <label for="winter">Winter</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="springsummer" name="semester" value="springsummer">
+                <label for="springsummer">Spring/Summer</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <label for="year"><b>Year:</b></label>
+                <input type="text" class="textInput" id="year" name="year">
+            </div>
+            <div>
+                <h3>INSTRUCTOR</h3>
+                <p>How would you rate the instructor's:</p>
+                <p>1. <b>Knowledge</b> of the subject?</p>
+                <input type="radio" id="excellent" name="knowledge" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="knowledge" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="knowledge" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="knowledge" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>2. <b>Helpfulness</b>?</p>
+                <input type="radio" id="excellent" name="helpfulness" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="helpfulness" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="helpfulness" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="helpfulness" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>3. <b>Courtesy and respect</b> for all students?</p>
+                <input type="radio" id="excellent" name="courtesy" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="courtesy" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="courtesy" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="courtesy" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>4. <b>Communication</b> skills?</p>
+                <input type="radio" id="excellent" name="communication" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="communication" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="communication" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="communication" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>5. Overall <b>Performance</b>?</p>
+                <input type="radio" id="excellent" name="performance" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="performance" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="performance" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="performance" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <h3>COURSE</h3>
+                <p>6. How would you rate the <b>course materials</b>?</p>
+                <input type="radio" id="excellent" name="performance" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="performance" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="performance" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="performance" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>7. How much did this course meet your <b>expectations</b>?</p>
+                <input type="radio" id="excellent" name="performance" value="excellent">
+                <label for="excellent">Excellent</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="good" name="performance" value="good">
+                <label for="good">Good</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="fair" name="performance" value="fair">
+                <label for="fair">Fair</label>
+                &nbsp; &nbsp;
+                <input type="radio" id="notsatisfactory" name="performance" value="notsatisfactory">
+                <label for="notsatisfactory">Not Satisfactory</label>
+
+                <p>8. How would you rate this <b>course</b> overall?</p>
+                <label for="rating">Choose between 1 (Worst) and 10 (Best):</label>
+                <input type="number" id="rating" name="rating" min="1" max="10">
+
+                <h3>GENERAL INFORMATION</h3>
+                <p>9. Was the <b>course outline</b> reviewed/explained at the beginning of your course? (please select <b>one</b>)</p>
+                <input type="checkbox" id="yes" name="outline" value="Yes">
+                <label for="yes">Yes</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" id="no" name="outline" value="No">
+                <label for="no">No</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" id="notsure" name="outline" value="Not Sure">
+                <label for="notsure">Not Sure</label>
+                &nbsp; &nbsp;
+
+                <p>10. Would you <b>recommend</b> this course to a friend with the same interests? (please select <b>one</b>)</p>
+                <input type="checkbox" id="yes" name="outline" value="Yes">
+                <label for="yes">Yes</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" id="no" name="outline" value="No">
+                <label for="no">No</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" id="notsure" name="outline" value="Not Sure">
+                <label for="notsure">Not Sure</label>
+                &nbsp; &nbsp;
+
+                <h3>ANY OTHER COMMENTS</h3>
+                <p>11. What is the <b><i>best thing</i></b> about this course?</p>
+                <textarea class="smallerTextArea" placeholder="Best thing about this course is..."></textarea>
+                <p>12. How could we <b><i>improve</i></b> this course?</p>
+                <textarea placeholder="You could improve this course by..."></textarea>
+                <p>13. Other: </p>
+                <textarea placeholder="Other comments about this course..."></textarea>
+
+                
+                <br>
+                <input formaction="submitted.html" type="submit" value="Submit">
+                <hr class ="grayRule">
+                <p class="centerText"><i>Thank you! We pay attention to your feedback!</i></p>
+                <p class="centerText"><i>Web:&nbsp;<a href="www.centennialcollege.ca/continuing_education">www.centennialcollege.ca/continuing_education</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    Email:&nbsp;<a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></i></p>
+                
+            </div>
+        </form>
+    </main>
+    <footer>
+        <hr class ="grayRule">
+        <small>&nbsp;Images taken from <a href="https://pixabay.com">Pixabay</a> and <a
+                href="https://www.centennialcollege.ca">Centennial College</a></small> <br>
+        <small>&nbsp;<i>Copyright &copy; Apurva Raval - COMP213 - Assignment 4 - Forms - Fall 2022</i></small>
+    </footer>
+
+</body>
+
+</html>
