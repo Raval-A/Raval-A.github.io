@@ -1,0 +1,272 @@
+
+.bannerimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("CrownEstatesBanner.png");
+    min-height: 100%;   
+}
+
+.bannerheading{
+    text-align: center;
+    color: rgb(235, 188, 33);
+}
+
+.logo1 {
+    position: absolute;
+    height: 128px;
+    width: 200px;
+}
+
+h1{
+    background-color: rgb(160, 45, 10);
+    color: rgb(250, 201, 68);
+    position:center;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border:black;
+    border-style:solid;
+    border-width: 5px;
+    
+}
+.navbar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(48, 48, 48);
+    width: 980px; 
+    justify-content: center;
+    display: inline-flex;
+}
+ul {
+    margin: auto;
+    float: left;
+    padding-bottom:1em;
+}
+.siteslist{
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.sites{
+    clear:right;
+    clear:left;
+}
+.site {
+    border: 2px solid;
+    margin:1px;
+    border-color: black;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgba(223, 202, 48, 0.61);
+}
+hr{
+    margin-top:1em;
+    padding-top: 2px;
+    clear:right;
+    clear:left;
+}
+.page {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.page a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    background-color: rgb(92, 11, 11);
+}
+.active {
+
+    background-color: #aa0404;
+
+}
+
+body{
+    height: 100%;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: rgb(196, 190, 178);
+    color:rgb(0, 0, 0);
+    margin: auto;
+    max-width: 980px;
+    height: 100%;
+}
+main{
+    background-color: rgb(214, 199, 176);
+    padding: 1em;
+    margin: auto 0; 
+    display: inline-block;
+    width:96.7%;
+         
+}
+.mainTop{
+    background-color: rgb(214, 199, 176);
+    padding: 1em;    
+    height: 100%;
+}
+
+.profile{
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+float:right;
+height: 300px;
+width: 190px;
+padding: 5px;
+}
+.reviewsHeading{
+    clear:right;
+    clear:left;
+}
+
+.cards-list{
+    background-color: #A52A2A;
+    height:auto;
+    width:98%;
+    margin: auto ;
+    display:flex;
+    justify-content: center;
+    padding: 6px 8px;
+}
+.cards-list ul{
+    text-align: center;
+    margin:auto 0;
+}
+.cards-list li{
+    list-style: none;
+    padding: 2px 2px 2px 2px;
+}
+
+.card{
+    transition: 0.3s;
+    overflow: hidden;
+    box-shadow: 0 6px 10px 0 rgb(48, 48, 48);
+    text-align: center;
+}
+.card:hover{
+    transform:scale(1.3,1.3);
+    transform-origin: 50% 50%;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+.card-image{
+    background-color: rgb(0, 0, 0);
+    padding: 2px 2px 2px 2px;
+}
+.house-image{
+width: 100%;
+height:200px;
+}
+.card-description{
+    background-color: rgb(211, 167, 48);
+    padding: 2px 2px 2px 2px;
+    color: rgb(48, 48, 48);
+}
+.footer-rule{
+     border-style:solid;
+     border-color:rgb(36, 22, 22); 
+     border-width: 2px;
+}
+.column{
+   flex:50%;
+   padding:6px;
+}
+.row{
+    display:flex;
+}
+.detailedPage{
+    background-color: #A52A2A;
+    height:auto;
+    width:98%;
+    margin: auto ;
+    display:flex;
+    justify-content: center;
+    padding: 6px 8px;  
+}
+
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 80%;
+   margin-left: auto;
+   margin-right:auto;
+}
+td,
+        th {
+            padding: 0.5em;
+            border: 2px solid #000000;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        .text {
+            text-align: left;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(187, 142, 45);
+        }
+
+.personalInfo{
+    border: 2px solid rgb(124, 24, 7);
+    border-radius: 5px;
+    background-color: #efefef;
+}
+.redOutline{
+    border: 2px solid rgb(124, 24, 7);
+    border-radius: 5px;
+    background-color: #efefef;
+}
+h3{
+    background-color:  rgb(155, 34, 13);
+    color: rgb(0, 0, 0);
+    position:center;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    max-width: 100%;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: rgb(155, 34, 13);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 8px 25%;
+    border: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    border: rgb(155, 34, 13);
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(124, 24, 7);
+    border-radius: 5px;
+    background-color: #efefef;
+    resize: none;
+  }
+  .mainpart{
+    background-color: rgb(214, 199, 176);
+    padding: 1em;
+    margin: auto 0; 
+    height: 100%;
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crown Estates Home</title>
+    <link rel="stylesheet" href="projectStyles.css">
+</head>
+
+<body>
+    <header class="bannerimg" id="home">
+        <img class="logo1" src="CrownEstatesLogo.png" alt="crown_estate_logo">
+        <div>
+            <span class="bannerheading">
+                <br>
+                <h1>Raya Kaur Realty Inc</h1>
+                <br>
+            </span>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="page"><a href="home.html">Home</a></li>
+            <li class="page"><a href="properties.html">All Listings</a></li>
+            <li class="page"><a class="active" href="contact.html">Contact Form</a></li>
+            <li class="page"><a href="sitemap.html">Sitemap and Credits</a></li>
+        </ul>
+    </nav>
+    <main class="mainpart">
+        <h2 class="formTitle">Property Contact Form</h2>
+        <p>Please fill out the form below to contact us about a specific property.</p>
+
+        <form action="mailto:rayakaur@crownestate.com" method="post" enctype="text/plain">
+            <div>
+                <h3>Personal Info</h3>
+                <label for="firstname"><b>First Name:</b></label>
+                <input type="text" class="personalInfo" id="firstname" name="firstname">
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <label for="lastname"><b>Last Name:</b></label>
+                <input type="text" class="personalInfo" id="lastname" name="lastname"><br>
+                <br>
+                <label for="phone"><b>Phone Number:</b></label>
+                <input type="text" class="personalInfo" id="phone" name="phone">
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <label for="email"><b>Email:</b></label>
+                <input type="text" class="personalInfo" id="email" name="email"><br>
+                <br>
+            </div>
+            <div>
+                <h3>Property Information</h3>
+                <b>Type: </b>
+                &nbsp; &nbsp;
+                <input class="redOutline" type="radio" id="house" name="type" value="House">
+                <label for="house">House</label>
+                &nbsp; &nbsp;
+                <input class="redOutline" type="radio" id="condominium" name="type" value="Condominium">
+                <label for="condominium">Condominium</label><br>
+                <br>
+                <label for="bedrooms">How many bedrooms are you looking for?</label>
+                <input class="redOutline" type="number" id="bedrooms" name="bedrooms" min="1" max="10"><br>
+                <br>
+                <label for="bathrooms">How many bathrooms are you looking for?</label>
+                <input class="redOutline" type="number" id="bathrooms" name="bathrooms" min="1" max="10"><br>
+                <br>
+                <label for="pricerange">Choose your price range:</label>
+                <select class="redOutline" name="pricerange" id="pricerange">
+                    <option value="50000-100000">$50,000-$100,000</option>
+                    <option value="100000-150000">$100,000-$150,000</option>
+                    <option value="150000-200000">$150,000-$200,000</option>
+                    <option value="200000-250000">$200,000-$250,000</option>
+                    <option value="250000-300000">$250,000-$300,000</option>
+                    <option value="300000-400000">$300,000-$400,000</option>
+                    <option value="400000-500000">$400,000-$500,000</option>
+                    <option value="500000+">Greater than $500,000</option>
+                </select><br>
+            </div>
+            <div>
+                <h3>Additional Comments</h3>
+                <p>Please add any additional comments or requirements in the text box below:</p>
+                <textarea class="textarea" placeholder="I would also like..."></textarea>
+                <br>
+                <input formaction="mailto:rayakaur@crownestate.com" type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <hr class="footer-rule">
+        <small>&nbsp;Images taken from <a href="https://pixabay.com">Pixabay</a></small> <br>
+        <small>&nbsp;<i>Copyright &copy; Apurva Raval - COMP213 - Individual Project- Fall 2022</i></small>
+    </footer>
+</body>
+
+</html>
